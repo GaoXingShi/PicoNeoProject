@@ -9,13 +9,15 @@ namespace Sense.BehaviourTree.VRTKExtend
     {
         public enum SingletonValueType
         {
-            IntensityByLight,
+            IntensityByLight,ShaderValueByMaterial
         }
 
         public SingletonValueType type;
         public Light ctrlLight;
-        public int singletonValue;
-        public int finishTime;
+        public string shaderValueName;
+        public Material ctrlMaterial;
+        public float singletonValue;
+        public float finishTime;
 
         private Sequence tweenSequence;
 
@@ -36,6 +38,11 @@ namespace Sense.BehaviourTree.VRTKExtend
             {
                 case SingletonValueType.IntensityByLight:
                     tweenSequence.Append(DOTween.To(() => ctrlLight.intensity, x => ctrlLight.intensity = x,
+                        singletonValue, finishTime));
+                    tweenSequence.AppendCallback(() => { State = NodeState.Succeed; });
+                    break;
+                case SingletonValueType.ShaderValueByMaterial:
+                    tweenSequence.Append(DOTween.To(() => ctrlMaterial.GetFloat(shaderValueName), x => ctrlMaterial.SetFloat(shaderValueName,x),
                         singletonValue, finishTime));
                     tweenSequence.AppendCallback(() => { State = NodeState.Succeed; });
                     break;
