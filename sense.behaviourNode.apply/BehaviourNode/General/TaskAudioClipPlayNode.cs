@@ -32,6 +32,7 @@ namespace Sense.BehaviourTree.VRTKExtend
             else
             {
                 State = NodeState.Succeed;
+                audioSource.loop = isLoop;
             }
         }
 
@@ -46,6 +47,11 @@ namespace Sense.BehaviourTree.VRTKExtend
             {
                 updateRunning = true;
                 State = NodeState.Succeed;
+                if (isLoop)
+                {
+                    audioSource.loop = isLoop;
+                    audioSource.Play(0);
+                }
             }
         }
 
@@ -73,14 +79,14 @@ namespace Sense.BehaviourTree.VRTKExtend
         public override void OnInspectorGUI()
         {
             serializedObject.Update();
-            node.audioSource = EditorGUILayout.ObjectField(new GUIContent("AudioSource"),node.audioSource, typeof(AudioSource),true) as AudioSource;
+            node.audioSource = EditorGUILayout.ObjectField(new GUIContent("AudioSource"), node.audioSource, typeof(AudioSource), true) as AudioSource;
             node.nodeIsPlay = EditorGUILayout.Toggle(new GUIContent("NodeIsPlay"), node.nodeIsPlay);
             if (node.nodeIsPlay)
             {
                 node.playFinishSucceed = EditorGUILayout.Toggle(new GUIContent("PlayFinishSucceed"), node.playFinishSucceed);
-                if (!node.playFinishSucceed)
-                    node.isLoop = EditorGUILayout.Toggle(new GUIContent("IsLoop"), node.isLoop);
-                node.audioClip = EditorGUILayout.ObjectField(new GUIContent("AudioClip"), node.audioClip, typeof(AudioClip),true) as AudioClip;
+
+                node.isLoop = EditorGUILayout.Toggle(new GUIContent("IsLoop"), node.isLoop);
+                node.audioClip = EditorGUILayout.ObjectField(new GUIContent("AudioClip"), node.audioClip, typeof(AudioClip), true) as AudioClip;
             }
 
             serializedObject.ApplyModifiedProperties();

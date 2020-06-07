@@ -21,5 +21,10 @@ public class SceneCtrl : MonoBehaviour
             SceneManager.LoadScene(sceneName);
         }
 
+        if (Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(0, Pvr_KeyCode.APP) ||
+            Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(1, Pvr_KeyCode.APP))
+        {
+            Application.Quit();
+        }
     }
 }
