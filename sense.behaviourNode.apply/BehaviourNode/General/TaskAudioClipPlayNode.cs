@@ -22,6 +22,7 @@ namespace Sense.BehaviourTree.VRTKExtend
         private bool updateRunning;
         public override void Execute()
         {
+            audioSource.Stop();
             audioSource.clip = audioClip;
             audioSource.Play(0);
             if (playFinishSucceed)

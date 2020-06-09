@@ -9,6 +9,7 @@ namespace Sense.BehaviourTree
     {
         public CubeObserver backCubeObserver;
 
+        public AudioSource audioSource;
         // false 还在原地 true代表掉落
         [HideInInspector]
         public bool isNextAllow;
@@ -47,6 +48,7 @@ namespace Sense.BehaviourTree
 
         void DropPlay()
         {
+            audioSource.Play(0);
             sequence = DOTween.Sequence();
             sequence.SetRelative(true);
             sequence.Append(
