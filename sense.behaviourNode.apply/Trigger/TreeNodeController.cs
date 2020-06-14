@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using DG.Tweening;
+using PicoMainNameSpace;
 using UnityEngine;
 
 namespace Sense.BehaviourTree.VRTKExtend
@@ -11,11 +15,18 @@ namespace Sense.BehaviourTree.VRTKExtend
     }
     public class TreeNodeController : MonoBehaviour
     {
-           
+
         [SerializeField]
-       
+
         public List<BehaviourNode> rootNodes = new List<BehaviourNode>();
 
+        public GameObject spriteCube;
+        public PicoTeleportRigibody picoTeleport;
+        public Teleport teleport;
+        public CubeObserver[] turn1Array, turn2Array;
+        public Vector3 turn1Pos, turn2Pos;
+        public AudioSource backageAudioSource;
+        public AudioClip backageClip;
         private void OnEnable()
         {
             InitChildNodes();
@@ -24,7 +35,6 @@ namespace Sense.BehaviourTree.VRTKExtend
         private void Start()
         {
             ExecuteCompositeNode();
-
         }
 
 
@@ -52,6 +62,70 @@ namespace Sense.BehaviourTree.VRTKExtend
             {
                 rootNodes[0].ResetNode();
                 rootNodes[0].Execute();
+            }
+        }
+
+
+        public IEnumerator ResetTurn(int value)
+        {
+            spriteCube.SetActive(true);
+            yield return StartCoroutine(teleport.ForceMove(picoTeleport.transform, value == 1 ? turn1Pos : turn2Pos));
+            picoTeleport.GetComponent<Rigidbody>().isKinematic = true;
+            Time.timeScale = 0;
+            backageAudioSource.clip = backageClip;
+            backageAudioSource.Play(0);
+            if (value == 1)
+            {
+                CubeObserver[] temp = turn1Array.Where(x =>
+                        x.isNextAllow || x.IsRunning || x.isNextAllow || (x.sequence != null && x.sequence.IsPlaying()))
+                    .ToArray();
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    temp[i].ResetTrigger();
+                    yield return null;
+                }
+            }
+            else if (value == 2)
+            {
+                CubeObserver[] temp = turn2Array.Where(x =>
+                        x.isNextAllow || x.IsRunning || x.isNextAllow || (x.sequence != null && x.sequence.IsPlaying()))
+                    .ToArray();
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    temp[i].ResetTrigger();
+                    yield return null;
+                }
+            }
+
+            Time.timeScale = 1;
+            yield return new WaitForSeconds(3);
+            spriteCube.SetActive(false);
+            //picoTeleport.GetComponent<Rigidbody>().isKinematic = false;
+            ExecuteCompositeNode();
+        }
+
+        public void StopAllCubeObserver(int value)
+        {
+            if (value == 1)
+            {
+                CubeObserver[] temp = turn1Array.Where(x =>
+                        x.isNextAllow || x.IsRunning || x.isNextAllow || (x.sequence != null && x.sequence.IsPlaying()))
+                    .ToArray();
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    temp[i].StopTrigger();
+                }
+            }
+            else if (value == 2)
+            {
+                CubeObserver[] temp = turn2Array.Where(x =>
+                        x.isNextAllow || x.IsRunning || x.isNextAllow || (x.sequence != null && x.sequence.IsPlaying()))
+                    .ToArray();
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    temp[i].StopTrigger();
+                }
+
             }
         }
 

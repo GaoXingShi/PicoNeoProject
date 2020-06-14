@@ -17,11 +17,16 @@ namespace Sense.BehaviourTree
         private const float dropTime = 1;
 
         // Start is called before the first frame update
-        private Sequence sequence;
-
+        [HideInInspector]
+        public Sequence sequence;
+        private Vector3 initPos;
+        private CubeObserver cacheBackCubeObserver;
         void Start()
         {
             DOTween.Init(true, false, LogBehaviour.ErrorsOnly);
+            initPos = transform.position;
+            cacheBackCubeObserver = backCubeObserver;
+
         }
 
         // Update is called once per frame
@@ -60,6 +65,38 @@ namespace Sense.BehaviourTree
         public override void EnableTrigger()
         {
             base.EnableTrigger();
+        }
+
+        public void ResetTrigger()
+        {
+            if (sequence != null && sequence.IsPlaying())
+            {
+                sequence.Kill(true);
+            }
+
+            transform.position = initPos;
+            gameObject.SetActive(true);
+            backCubeObserver = cacheBackCubeObserver;
+            if (backCubeObserver != null)
+                backCubeObserver.isNextAllow = false;
+            isNextAllow = false;
+            DisableTrigger();
+            timer = 0;
+        }
+
+        public void StopTrigger()
+        {
+            if (sequence != null && sequence.IsPlaying())
+            {
+                sequence.Kill(true);
+            }
+
+            if (backCubeObserver != null)
+                backCubeObserver.isNextAllow = false;
+            isNextAllow = false;
+            DisableTrigger();
+            timer = 0;
+
         }
 
     }

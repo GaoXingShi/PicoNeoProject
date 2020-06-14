@@ -9,7 +9,7 @@ namespace Sense.BehaviourTree.VRTKExtend
     {
         public enum SingletonValueType
         {
-            IntensityByLight,ShaderValueByMaterial
+            IntensityByLight,ShaderValueByMaterial, ConditionNodeIndex
         }
 
         public SingletonValueType type;
@@ -19,12 +19,15 @@ namespace Sense.BehaviourTree.VRTKExtend
         public float singletonValue;
         public float finishTime;
 
+        public ConditionNode conditionNode;
+        public int conditionNodeIndex;
+
         private Sequence tweenSequence;
 
         public override void Execute()
         {
-            TweenPlay();
             base.Execute();
+            TweenPlay();
         }
 
         private void Start()
@@ -45,6 +48,10 @@ namespace Sense.BehaviourTree.VRTKExtend
                     tweenSequence.Append(DOTween.To(() => ctrlMaterial.GetFloat(shaderValueName), x => ctrlMaterial.SetFloat(shaderValueName,x),
                         singletonValue, finishTime));
                     tweenSequence.AppendCallback(() => { State = NodeState.Succeed; });
+                    break;
+                case SingletonValueType.ConditionNodeIndex:
+                    conditionNode.executeNodeIndex = conditionNodeIndex;
+                    State = NodeState.Succeed;
                     break;
             }
         }
