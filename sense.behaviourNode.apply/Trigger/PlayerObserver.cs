@@ -8,6 +8,8 @@ namespace Sense.BehaviourTree
     {
         [HideInInspector]
         public bool isEnter = false;
+        [Header("是出局线吗?")]
+        public bool isOutLine;
         void OnTriggerEnter(Collider _other)
         {
             if (!running)
@@ -24,7 +26,8 @@ namespace Sense.BehaviourTree
         public override void DisableTrigger()
         {
             base.DisableTrigger();
-            gameObject.SetActive(false);
+            if (!isOutLine)
+                gameObject.SetActive(false);
         }
     }
 

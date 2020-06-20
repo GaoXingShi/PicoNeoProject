@@ -10,6 +10,9 @@ namespace Sense.BehaviourTree
         public CubeObserver backCubeObserver;
 
         public AudioSource audioSource;
+
+        public CubeObserver[] jointCubeObserverArray;
+
         // false 还在原地 true代表掉落
         [HideInInspector]
         public bool isNextAllow;
@@ -21,12 +24,61 @@ namespace Sense.BehaviourTree
         public Sequence sequence;
         private Vector3 initPos;
         private CubeObserver cacheBackCubeObserver;
+
+        private Material cubeMaterial;
+        private Transform playerRef;
+        private bool redPath;
+
+        private const float DISTANCE_PLAYER_VALUE = 8, EMISSION_CHANGE_VALUE = 1.5f;
         void Start()
         {
             DOTween.Init(true, false, LogBehaviour.ErrorsOnly);
             initPos = transform.position;
             cacheBackCubeObserver = backCubeObserver;
+            cubeMaterial = GetComponent<MeshRenderer>().material;
 
+            if (jointCubeObserverArray.Length > 0)
+            {
+                cubeMaterial.SetColor("_EmissionColor", Color.red);
+                playerRef = GameObject.FindGameObjectWithTag("Player").transform;
+            }
+        }
+
+        private void OnDrawGizmos()
+        {
+            if (!Application.isPlaying && jointCubeObserverArray.Length > 0)
+            {
+                Gizmos.color = Color.red;
+                Gizmos.DrawMesh(GetComponent<MeshFilter>().sharedMesh, transform.position, transform.rotation,transform.lossyScale);
+                Gizmos.color = Color.green;
+                foreach (var v in jointCubeObserverArray)
+                {
+                    Gizmos.DrawMesh(v.GetComponent<MeshFilter>().sharedMesh, v.transform.position, v.transform.rotation, v.transform.lossyScale);
+                }
+            }
+        }
+
+
+        void Update()
+        {
+            if (playerRef != null && !redPath)
+            {
+                if (Vector3.Distance(playerRef.position, transform.position) <= DISTANCE_PLAYER_VALUE)
+                {
+                    redPath = true;
+                    sequence = DOTween.Sequence();
+                    sequence.Append(
+                        DOTween.To(() => cubeMaterial.GetColor("_EmissionColor"), x => cubeMaterial.SetColor("_EmissionColor", x), Color.black, EMISSION_CHANGE_VALUE));
+                    sequence.AppendCallback(() =>
+                    {
+                        foreach (var v in jointCubeObserverArray)
+                        {
+                            v.EnableTrigger();
+                        }
+                        EnableTrigger();
+                    });
+                }
+            }
         }
 
         // Update is called once per frame
@@ -40,6 +92,8 @@ namespace Sense.BehaviourTree
 
             if (running)
             {
+                backCubeObserver = null;
+
                 timer += Time.deltaTime;
                 if (timer >= dropTime)
                 {
@@ -82,6 +136,12 @@ namespace Sense.BehaviourTree
             isNextAllow = false;
             DisableTrigger();
             timer = 0;
+
+            redPath = false;
+            if (jointCubeObserverArray.Length > 0)
+            {
+                cubeMaterial.SetColor("_EmissionColor", Color.red);
+            }
         }
 
         public void StopTrigger()

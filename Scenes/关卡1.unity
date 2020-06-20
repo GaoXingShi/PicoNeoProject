@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.005042866, g: 0.02991124, b: 0.053278245, a: 0.1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -405,6 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &119042087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1657,6 +1658,169 @@ MonoBehaviour:
   objectsActive: 1
   objects:
   - {fileID: 1516527950}
+--- !u!43 &258717312
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface455 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -83.14026, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 9e8f68c215ac4ca9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3e9e8f68c2a0aac6a6e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703c9e8f68c282b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3e9e8f68c282b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703cd047d8c2c0964aa9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3ed047d8c2a0aac6a6e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703c9e8f68c215ac4ca9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3e9e8f68c2a0aac6a6e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703c9e8f68c2a0aac6a6e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3ed047d8c2a0aac6a6e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703c9e8f68c282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3ed047d8c282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703cd047d8c282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003f9e8f68c282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003fd047d8c282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3f9e8f68c282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3fd047d8c2c0964aa9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003f9e8f68c215ac4ca9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3fd047d8c282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003f9e8f68c282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3fd047d8c2a0aac6a6e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3fd047d8c2c0964aa9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003fd047d8c282b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3fd047d8c282b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -83.14026, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.477
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &286531306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,8 +1845,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286531306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.44926834, y: 10.981569, z: -2585.8767}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0.0044926833, y: 0.109815694, z: -25.858767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1214638533}
   - {fileID: 1593091032}
@@ -1738,6 +1902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &291330443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2130,6 +2295,169 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 11
   m_CustomBakedTexture: {fileID: 0}
+--- !u!43 &353739577
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface436 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 00000000c07646a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3e0000000000000000e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703c0000000082b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3e0000000082b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703c010048c26a6144a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3e010048c200000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703c00000000c07646a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3e0000000000000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703c0000000000000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3e010048c200000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703c0000000082b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3e010048c282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703c010048c282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003f0000000082b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003f010048c282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3f0000000082b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3f010048c26a6144a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003f00000000c07646a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3f010048c282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003f0000000082b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3f010048c200000000e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3f010048c26a6144a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003f010048c282b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3f010048c282b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.476
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &365508820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +4014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224856}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224856
 MonoBehaviour:
@@ -3701,6 +4030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224857}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224857
 MonoBehaviour:
@@ -3716,6 +4046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224858}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224858
 MonoBehaviour:
@@ -3731,6 +4062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224859}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224859
 MonoBehaviour:
@@ -3746,6 +4078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224860}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224860
 MonoBehaviour:
@@ -3761,6 +4094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224861}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224861
 MonoBehaviour:
@@ -3776,6 +4110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224862}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224862
 MonoBehaviour:
@@ -3791,6 +4126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224863}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224863
 MonoBehaviour:
@@ -3806,6 +4142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224864}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224864
 MonoBehaviour:
@@ -3821,6 +4158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224865}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224865
 MonoBehaviour:
@@ -3836,6 +4174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224866}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224866
 MonoBehaviour:
@@ -3851,6 +4190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224867}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224867
 MonoBehaviour:
@@ -3866,6 +4206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224868}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224868
 MonoBehaviour:
@@ -3881,6 +4222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224869}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224869
 MonoBehaviour:
@@ -3896,6 +4238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224870}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224870
 MonoBehaviour:
@@ -3911,6 +4254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224871}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224871
 MonoBehaviour:
@@ -3926,6 +4270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224872}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224872
 MonoBehaviour:
@@ -3941,6 +4286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224873}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224873
 MonoBehaviour:
@@ -3956,6 +4302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224874}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224874
 MonoBehaviour:
@@ -3971,6 +4318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224875}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224875
 MonoBehaviour:
@@ -3986,6 +4334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224876}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224876
 MonoBehaviour:
@@ -4001,6 +4350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224877}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224877
 MonoBehaviour:
@@ -4016,6 +4366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224878}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224878
 MonoBehaviour:
@@ -4031,6 +4382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224879}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224879
 MonoBehaviour:
@@ -4046,6 +4398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224880}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224880
 MonoBehaviour:
@@ -4061,6 +4414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224881}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224881
 MonoBehaviour:
@@ -4076,6 +4430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224882}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224882
 MonoBehaviour:
@@ -4091,6 +4446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224883}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224883
 MonoBehaviour:
@@ -4106,6 +4462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224884}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224884
 MonoBehaviour:
@@ -4121,6 +4478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224885}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224885
 MonoBehaviour:
@@ -4136,6 +4494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224886}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224886
 MonoBehaviour:
@@ -4151,6 +4510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224887}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224887
 MonoBehaviour:
@@ -4166,6 +4526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224888}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224888
 MonoBehaviour:
@@ -4181,6 +4542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224889}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224889
 MonoBehaviour:
@@ -4196,6 +4558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224890}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224890
 MonoBehaviour:
@@ -4211,6 +4574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224891}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224891
 MonoBehaviour:
@@ -4226,6 +4590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224892}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224892
 MonoBehaviour:
@@ -4241,6 +4606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224893}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224893
 MonoBehaviour:
@@ -4256,6 +4622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224894}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224894
 MonoBehaviour:
@@ -4271,6 +4638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224895}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224895
 MonoBehaviour:
@@ -4286,6 +4654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224896}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224896
 MonoBehaviour:
@@ -4301,6 +4670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224897}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224897
 MonoBehaviour:
@@ -4316,6 +4686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224898}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224898
 MonoBehaviour:
@@ -4331,6 +4702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224899}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224899
 MonoBehaviour:
@@ -4346,6 +4718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224900}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224900
 MonoBehaviour:
@@ -4361,6 +4734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224901}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224901
 MonoBehaviour:
@@ -4376,6 +4750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224902}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224902
 MonoBehaviour:
@@ -4391,6 +4766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224903}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224903
 MonoBehaviour:
@@ -4406,6 +4782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224904}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224904
 MonoBehaviour:
@@ -4421,6 +4798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224905}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224905
 MonoBehaviour:
@@ -4436,6 +4814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224906}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224906
 MonoBehaviour:
@@ -4451,6 +4830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224907}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224905}
   isNextAllow: 0
 --- !u!114 &477224907
 MonoBehaviour:
@@ -4466,6 +4847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224908}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224908
 MonoBehaviour:
@@ -4481,6 +4863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224909}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224909
 MonoBehaviour:
@@ -4496,6 +4879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224910}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224910
 MonoBehaviour:
@@ -4511,6 +4895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224911}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224911
 MonoBehaviour:
@@ -4526,6 +4911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224912}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224912
 MonoBehaviour:
@@ -4541,6 +4927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224913}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224913
 MonoBehaviour:
@@ -4556,6 +4943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224914}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224914
 MonoBehaviour:
@@ -4571,6 +4959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224915}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224915
 MonoBehaviour:
@@ -4586,6 +4975,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224916}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224916}
+  - {fileID: 477224914}
   isNextAllow: 0
 --- !u!114 &477224916
 MonoBehaviour:
@@ -4601,6 +4993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224917}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224917
 MonoBehaviour:
@@ -4616,6 +5009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224918}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224918
 MonoBehaviour:
@@ -4631,6 +5025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224919}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224919
 MonoBehaviour:
@@ -4646,6 +5041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224920}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224920
 MonoBehaviour:
@@ -4661,6 +5057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224921}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224921
 MonoBehaviour:
@@ -4676,6 +5073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224922}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224922
 MonoBehaviour:
@@ -4691,6 +5089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224923}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224923
 MonoBehaviour:
@@ -4706,6 +5105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224924}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224924
 MonoBehaviour:
@@ -4721,6 +5121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224925}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224925
 MonoBehaviour:
@@ -4736,6 +5137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224926}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224926
 MonoBehaviour:
@@ -4751,6 +5153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224927}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224927
 MonoBehaviour:
@@ -4766,6 +5169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224928}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224928}
+  - {fileID: 477224926}
   isNextAllow: 0
 --- !u!114 &477224928
 MonoBehaviour:
@@ -4781,6 +5187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224929}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224929
 MonoBehaviour:
@@ -4796,6 +5203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224930}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224930
 MonoBehaviour:
@@ -4811,6 +5219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224931}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224931
 MonoBehaviour:
@@ -4826,6 +5235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224932}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224932
 MonoBehaviour:
@@ -4841,6 +5251,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224933}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224933}
+  - {fileID: 477225120}
+  - {fileID: 477224931}
   isNextAllow: 0
 --- !u!114 &477224933
 MonoBehaviour:
@@ -4856,6 +5270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224934}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224934
 MonoBehaviour:
@@ -4871,6 +5286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224935}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224935
 MonoBehaviour:
@@ -4886,6 +5302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224936}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224936
 MonoBehaviour:
@@ -4901,6 +5318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224937}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224937
 MonoBehaviour:
@@ -4916,6 +5334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224938}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224938
 MonoBehaviour:
@@ -4931,6 +5350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224939}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224939
 MonoBehaviour:
@@ -4946,6 +5366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224940}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224940
 MonoBehaviour:
@@ -4961,6 +5382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224941}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224941
 MonoBehaviour:
@@ -4976,6 +5398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224942}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224942
 MonoBehaviour:
@@ -4991,6 +5414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224943}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224943
 MonoBehaviour:
@@ -5006,6 +5430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224944}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224944
 MonoBehaviour:
@@ -5021,6 +5446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224945}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224945
 MonoBehaviour:
@@ -5036,6 +5462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224946}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224946
 MonoBehaviour:
@@ -5051,6 +5478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224947}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224947
 MonoBehaviour:
@@ -5066,6 +5494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224948}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224948
 MonoBehaviour:
@@ -5081,6 +5510,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224949}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224949}
+  - {fileID: 477225152}
+  - {fileID: 477224947}
   isNextAllow: 0
 --- !u!114 &477224949
 MonoBehaviour:
@@ -5096,6 +5529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224950}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224950
 MonoBehaviour:
@@ -5111,6 +5545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224951}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224951
 MonoBehaviour:
@@ -5126,6 +5561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224952}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224952
 MonoBehaviour:
@@ -5141,6 +5577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224953}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224953
 MonoBehaviour:
@@ -5156,6 +5593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224954}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224954
 MonoBehaviour:
@@ -5171,6 +5609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224955}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224955
 MonoBehaviour:
@@ -5186,6 +5625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224956}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224956
 MonoBehaviour:
@@ -5201,6 +5641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224957}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224957
 MonoBehaviour:
@@ -5216,6 +5657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224958}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224958
 MonoBehaviour:
@@ -5231,6 +5673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224959}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224959
 MonoBehaviour:
@@ -5246,6 +5689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224960}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224960
 MonoBehaviour:
@@ -5261,6 +5705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224961}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224961
 MonoBehaviour:
@@ -5276,6 +5721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224962}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224962
 MonoBehaviour:
@@ -5291,6 +5737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224963}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224963
 MonoBehaviour:
@@ -5306,6 +5753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224964}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224964
 MonoBehaviour:
@@ -5321,6 +5769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224965}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224965
 MonoBehaviour:
@@ -5336,6 +5785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 0}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224966
 MonoBehaviour:
@@ -5351,6 +5801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224856}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224967
 MonoBehaviour:
@@ -5366,6 +5817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224856}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224968
 MonoBehaviour:
@@ -5381,6 +5833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224857}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224969
 MonoBehaviour:
@@ -5396,6 +5849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224857}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224970
 MonoBehaviour:
@@ -5411,6 +5865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224858}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224971
 MonoBehaviour:
@@ -5426,6 +5881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224858}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224972
 MonoBehaviour:
@@ -5441,6 +5897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224859}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224973
 MonoBehaviour:
@@ -5456,6 +5913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224859}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224974
 MonoBehaviour:
@@ -5471,6 +5929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224860}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224975
 MonoBehaviour:
@@ -5486,6 +5945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224860}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224976
 MonoBehaviour:
@@ -5501,6 +5961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224861}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224977
 MonoBehaviour:
@@ -5516,6 +5977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224861}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224978
 MonoBehaviour:
@@ -5531,6 +5993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224862}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224979
 MonoBehaviour:
@@ -5546,6 +6009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224862}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224980
 MonoBehaviour:
@@ -5561,6 +6025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224863}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224981
 MonoBehaviour:
@@ -5576,6 +6041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224863}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224982
 MonoBehaviour:
@@ -5591,6 +6057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224864}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224983
 MonoBehaviour:
@@ -5606,6 +6073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224864}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224984
 MonoBehaviour:
@@ -5621,6 +6089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224865}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224985
 MonoBehaviour:
@@ -5636,6 +6105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224865}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224986
 MonoBehaviour:
@@ -5651,6 +6121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224866}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224987
 MonoBehaviour:
@@ -5666,6 +6137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224866}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224988
 MonoBehaviour:
@@ -5681,6 +6153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224867}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224989
 MonoBehaviour:
@@ -5696,6 +6169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224867}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224990
 MonoBehaviour:
@@ -5711,6 +6185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224868}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224991
 MonoBehaviour:
@@ -5726,6 +6201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224868}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224992
 MonoBehaviour:
@@ -5741,6 +6217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224869}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224993
 MonoBehaviour:
@@ -5756,6 +6233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224869}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224994
 MonoBehaviour:
@@ -5771,6 +6249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224870}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224995
 MonoBehaviour:
@@ -5786,6 +6265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224870}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224996
 MonoBehaviour:
@@ -5801,6 +6281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224871}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224997
 MonoBehaviour:
@@ -5816,6 +6297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224871}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224998
 MonoBehaviour:
@@ -5831,6 +6313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224872}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477224999
 MonoBehaviour:
@@ -5846,6 +6329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224872}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225000
 MonoBehaviour:
@@ -5861,6 +6345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224873}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225001
 MonoBehaviour:
@@ -5876,6 +6361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224873}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225002
 MonoBehaviour:
@@ -5891,6 +6377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224874}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225003
 MonoBehaviour:
@@ -5906,6 +6393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224874}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225004
 MonoBehaviour:
@@ -5921,6 +6409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224875}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225005
 MonoBehaviour:
@@ -5936,6 +6425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224875}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225006
 MonoBehaviour:
@@ -5951,6 +6441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224876}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225007
 MonoBehaviour:
@@ -5966,6 +6457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224876}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225008
 MonoBehaviour:
@@ -5981,6 +6473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224877}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225009
 MonoBehaviour:
@@ -5996,6 +6489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224877}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225010
 MonoBehaviour:
@@ -6011,6 +6505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224878}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225011
 MonoBehaviour:
@@ -6026,6 +6521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224878}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225012
 MonoBehaviour:
@@ -6041,6 +6537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224879}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225013
 MonoBehaviour:
@@ -6056,6 +6553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224879}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225014
 MonoBehaviour:
@@ -6071,6 +6569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224880}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225015
 MonoBehaviour:
@@ -6086,6 +6585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224880}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225016
 MonoBehaviour:
@@ -6101,6 +6601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224881}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225017
 MonoBehaviour:
@@ -6116,6 +6617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224881}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225018
 MonoBehaviour:
@@ -6131,6 +6633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224882}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225019
 MonoBehaviour:
@@ -6146,6 +6649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224882}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225020
 MonoBehaviour:
@@ -6161,6 +6665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224883}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225021
 MonoBehaviour:
@@ -6176,6 +6681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224883}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225022
 MonoBehaviour:
@@ -6191,6 +6697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224884}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225023
 MonoBehaviour:
@@ -6206,6 +6713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224884}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225024
 MonoBehaviour:
@@ -6221,6 +6729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224885}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225025
 MonoBehaviour:
@@ -6236,6 +6745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224885}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225026
 MonoBehaviour:
@@ -6251,6 +6761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224886}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225027
 MonoBehaviour:
@@ -6266,6 +6777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224886}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225028
 MonoBehaviour:
@@ -6281,6 +6793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224887}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225029
 MonoBehaviour:
@@ -6296,6 +6809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224887}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225030
 MonoBehaviour:
@@ -6311,6 +6825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224888}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225031
 MonoBehaviour:
@@ -6326,6 +6841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224888}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225032
 MonoBehaviour:
@@ -6341,6 +6857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224889}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225033
 MonoBehaviour:
@@ -6356,6 +6873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224889}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225034
 MonoBehaviour:
@@ -6371,6 +6889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224890}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225035
 MonoBehaviour:
@@ -6386,6 +6905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224890}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225036
 MonoBehaviour:
@@ -6401,6 +6921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224891}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225037
 MonoBehaviour:
@@ -6416,6 +6937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224891}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225038
 MonoBehaviour:
@@ -6431,6 +6953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224892}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225039
 MonoBehaviour:
@@ -6446,6 +6969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224892}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225040
 MonoBehaviour:
@@ -6461,6 +6985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224893}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225041
 MonoBehaviour:
@@ -6476,6 +7001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224893}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225042
 MonoBehaviour:
@@ -6491,6 +7017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224894}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225043
 MonoBehaviour:
@@ -6506,6 +7033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224894}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225044
 MonoBehaviour:
@@ -6521,6 +7049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224895}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225045
 MonoBehaviour:
@@ -6536,6 +7065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224895}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225046
 MonoBehaviour:
@@ -6551,6 +7081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224896}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225047
 MonoBehaviour:
@@ -6566,6 +7097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224896}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225048
 MonoBehaviour:
@@ -6581,6 +7113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224897}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224896}
+  - {fileID: 477225049}
+  - {fileID: 477225046}
   isNextAllow: 0
 --- !u!114 &477225049
 MonoBehaviour:
@@ -6596,6 +7132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224897}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225050
 MonoBehaviour:
@@ -6611,6 +7148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224898}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224897}
+  - {fileID: 477225051}
   isNextAllow: 0
 --- !u!114 &477225051
 MonoBehaviour:
@@ -6626,6 +7166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224898}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225052
 MonoBehaviour:
@@ -6641,6 +7182,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224899}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224898}
+  - {fileID: 477225053}
   isNextAllow: 0
 --- !u!114 &477225053
 MonoBehaviour:
@@ -6656,6 +7200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224899}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225054
 MonoBehaviour:
@@ -6671,6 +7216,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224900}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224899}
+  - {fileID: 477225055}
   isNextAllow: 0
 --- !u!114 &477225055
 MonoBehaviour:
@@ -6686,6 +7234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224900}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225056
 MonoBehaviour:
@@ -6701,6 +7250,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224901}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225058}
+  - {fileID: 477224900}
+  - {fileID: 477225057}
   isNextAllow: 0
 --- !u!114 &477225057
 MonoBehaviour:
@@ -6716,6 +7269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224901}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225058
 MonoBehaviour:
@@ -6731,6 +7285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224902}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225059
 MonoBehaviour:
@@ -6746,6 +7301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224902}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225060
 MonoBehaviour:
@@ -6761,6 +7317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224903}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225061
 MonoBehaviour:
@@ -6776,6 +7333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224903}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225062
 MonoBehaviour:
@@ -6791,6 +7349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224904}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225063
 MonoBehaviour:
@@ -6806,6 +7365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224904}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225064
 MonoBehaviour:
@@ -6821,6 +7381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224905}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225065
 MonoBehaviour:
@@ -6836,6 +7397,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224905}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225063}
   isNextAllow: 0
 --- !u!114 &477225066
 MonoBehaviour:
@@ -6851,6 +7414,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224906}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225067}
+  - {fileID: 477225064}
   isNextAllow: 0
 --- !u!114 &477225067
 MonoBehaviour:
@@ -6866,6 +7432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224906}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225068
 MonoBehaviour:
@@ -6881,6 +7448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224907}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225069
 MonoBehaviour:
@@ -6896,6 +7464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224907}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225070
 MonoBehaviour:
@@ -6911,6 +7480,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224908}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224907}
+  - {fileID: 477225068}
   isNextAllow: 0
 --- !u!114 &477225071
 MonoBehaviour:
@@ -6926,6 +7498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224908}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225072
 MonoBehaviour:
@@ -6941,6 +7514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224909}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225073
 MonoBehaviour:
@@ -6956,6 +7530,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224909}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225075}
+  - {fileID: 477225072}
+  - {fileID: 477225071}
   isNextAllow: 0
 --- !u!114 &477225074
 MonoBehaviour:
@@ -6971,6 +7549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224910}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225075
 MonoBehaviour:
@@ -6986,6 +7565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224910}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225076
 MonoBehaviour:
@@ -7001,6 +7581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224911}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225077
 MonoBehaviour:
@@ -7016,6 +7597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224911}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225078
 MonoBehaviour:
@@ -7031,6 +7613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224912}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225079
 MonoBehaviour:
@@ -7046,6 +7629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224912}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225080
 MonoBehaviour:
@@ -7061,6 +7645,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224913}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225082}
+  - {fileID: 477224912}
+  - {fileID: 477225081}
+  - {fileID: 477225078}
   isNextAllow: 0
 --- !u!114 &477225081
 MonoBehaviour:
@@ -7076,6 +7665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224913}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225082
 MonoBehaviour:
@@ -7091,6 +7681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224914}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225083
 MonoBehaviour:
@@ -7106,6 +7697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224914}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225084
 MonoBehaviour:
@@ -7121,6 +7713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224915}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225085
 MonoBehaviour:
@@ -7136,6 +7729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224915}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225086
 MonoBehaviour:
@@ -7151,6 +7745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224916}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225087
 MonoBehaviour:
@@ -7166,6 +7761,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224916}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225089}
+  - {fileID: 477225086}
+  - {fileID: 477225085}
   isNextAllow: 0
 --- !u!114 &477225088
 MonoBehaviour:
@@ -7181,6 +7780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224917}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225089
 MonoBehaviour:
@@ -7196,6 +7796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224917}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225090
 MonoBehaviour:
@@ -7211,6 +7812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224918}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225091
 MonoBehaviour:
@@ -7226,6 +7828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224918}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225092
 MonoBehaviour:
@@ -7241,6 +7844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224919}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225093
 MonoBehaviour:
@@ -7256,6 +7860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224919}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225094
 MonoBehaviour:
@@ -7271,6 +7876,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224920}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225096}
+  - {fileID: 477224919}
+  - {fileID: 477225095}
+  - {fileID: 477225092}
   isNextAllow: 0
 --- !u!114 &477225095
 MonoBehaviour:
@@ -7286,6 +7896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224920}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225096
 MonoBehaviour:
@@ -7301,6 +7912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224921}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225097
 MonoBehaviour:
@@ -7316,6 +7928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224921}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225098
 MonoBehaviour:
@@ -7331,6 +7944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224922}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225099
 MonoBehaviour:
@@ -7346,6 +7960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224922}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225100
 MonoBehaviour:
@@ -7361,6 +7976,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224923}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477224922}
+  - {fileID: 477225101}
+  - {fileID: 477225098}
   isNextAllow: 0
 --- !u!114 &477225101
 MonoBehaviour:
@@ -7376,6 +7995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224923}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225102
 MonoBehaviour:
@@ -7391,6 +8011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224924}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225103
 MonoBehaviour:
@@ -7406,6 +8027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224924}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225104
 MonoBehaviour:
@@ -7421,6 +8043,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224925}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225106}
+  - {fileID: 477225102}
+  - {fileID: 477224924}
   isNextAllow: 0
 --- !u!114 &477225105
 MonoBehaviour:
@@ -7436,6 +8062,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224925}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225107}
+  - {fileID: 477225103}
   isNextAllow: 0
 --- !u!114 &477225106
 MonoBehaviour:
@@ -7451,6 +8080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224926}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225107
 MonoBehaviour:
@@ -7466,6 +8096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224926}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225108
 MonoBehaviour:
@@ -7481,6 +8112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224927}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225109
 MonoBehaviour:
@@ -7496,6 +8128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224927}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225110
 MonoBehaviour:
@@ -7511,6 +8144,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224928}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225112}
+  - {fileID: 477225108}
+  - {fileID: 477225111}
   isNextAllow: 0
 --- !u!114 &477225111
 MonoBehaviour:
@@ -7526,6 +8163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224928}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225112
 MonoBehaviour:
@@ -7541,6 +8179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224929}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225113
 MonoBehaviour:
@@ -7556,6 +8195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224929}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225114
 MonoBehaviour:
@@ -7571,6 +8211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224930}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225115
 MonoBehaviour:
@@ -7586,6 +8227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224930}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225116
 MonoBehaviour:
@@ -7601,6 +8243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224931}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225117
 MonoBehaviour:
@@ -7616,6 +8259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224931}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225118
 MonoBehaviour:
@@ -7631,6 +8275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224932}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225119
 MonoBehaviour:
@@ -7646,6 +8291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224932}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225120
 MonoBehaviour:
@@ -7661,6 +8307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224933}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225121
 MonoBehaviour:
@@ -7676,6 +8323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224933}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225122
 MonoBehaviour:
@@ -7691,6 +8339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224934}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225123
 MonoBehaviour:
@@ -7706,6 +8355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224934}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225124
 MonoBehaviour:
@@ -7721,6 +8371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224935}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225125
 MonoBehaviour:
@@ -7736,6 +8387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224935}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225126
 MonoBehaviour:
@@ -7751,6 +8403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224936}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225127
 MonoBehaviour:
@@ -7766,6 +8419,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224936}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225129}
+  - {fileID: 477225126}
+  - {fileID: 477225125}
   isNextAllow: 0
 --- !u!114 &477225128
 MonoBehaviour:
@@ -7781,6 +8438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224937}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225129
 MonoBehaviour:
@@ -7796,6 +8454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224937}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225130
 MonoBehaviour:
@@ -7811,6 +8470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224938}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225131
 MonoBehaviour:
@@ -7826,6 +8486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224938}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225132
 MonoBehaviour:
@@ -7841,6 +8502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224939}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225133
 MonoBehaviour:
@@ -7856,6 +8518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224939}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225134
 MonoBehaviour:
@@ -7871,6 +8534,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224940}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225136}
+  - {fileID: 477224939}
+  - {fileID: 477225135}
+  - {fileID: 477225132}
   isNextAllow: 0
 --- !u!114 &477225135
 MonoBehaviour:
@@ -7886,6 +8554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224940}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225136
 MonoBehaviour:
@@ -7901,6 +8570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224941}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225137
 MonoBehaviour:
@@ -7916,6 +8586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224941}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225138
 MonoBehaviour:
@@ -7931,6 +8602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224942}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225139
 MonoBehaviour:
@@ -7946,6 +8618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224942}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225140
 MonoBehaviour:
@@ -7961,6 +8634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224943}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225141
 MonoBehaviour:
@@ -7976,6 +8650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224943}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225142
 MonoBehaviour:
@@ -7991,6 +8666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224944}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225143
 MonoBehaviour:
@@ -8006,6 +8682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224944}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225144
 MonoBehaviour:
@@ -8021,6 +8698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224945}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225145
 MonoBehaviour:
@@ -8036,6 +8714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224945}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225146
 MonoBehaviour:
@@ -8051,6 +8730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224946}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225147
 MonoBehaviour:
@@ -8066,6 +8746,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224946}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225149}
+  - {fileID: 477225146}
+  - {fileID: 477225145}
   isNextAllow: 0
 --- !u!114 &477225148
 MonoBehaviour:
@@ -8081,6 +8765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224947}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225149
 MonoBehaviour:
@@ -8096,6 +8781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224947}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225150
 MonoBehaviour:
@@ -8111,6 +8797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224948}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225151
 MonoBehaviour:
@@ -8126,6 +8813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224948}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225152
 MonoBehaviour:
@@ -8141,6 +8829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224949}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225153
 MonoBehaviour:
@@ -8156,6 +8845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224949}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225154
 MonoBehaviour:
@@ -8171,6 +8861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224950}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225155
 MonoBehaviour:
@@ -8186,6 +8877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224950}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225156
 MonoBehaviour:
@@ -8201,6 +8893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224951}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225157
 MonoBehaviour:
@@ -8216,6 +8909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224951}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225158
 MonoBehaviour:
@@ -8231,6 +8925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224952}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225159
 MonoBehaviour:
@@ -8246,6 +8941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224952}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225160
 MonoBehaviour:
@@ -8261,6 +8957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224953}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225161
 MonoBehaviour:
@@ -8276,6 +8973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224953}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225162
 MonoBehaviour:
@@ -8291,6 +8989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224954}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225163
 MonoBehaviour:
@@ -8306,6 +9005,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224954}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray:
+  - {fileID: 477225165}
+  - {fileID: 477225162}
+  - {fileID: 477225161}
   isNextAllow: 0
 --- !u!114 &477225164
 MonoBehaviour:
@@ -8321,6 +9024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224955}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225165
 MonoBehaviour:
@@ -8336,6 +9040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224955}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225166
 MonoBehaviour:
@@ -8351,6 +9056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224956}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225167
 MonoBehaviour:
@@ -8366,6 +9072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224956}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225168
 MonoBehaviour:
@@ -8381,6 +9088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224957}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225169
 MonoBehaviour:
@@ -8396,6 +9104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224957}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225170
 MonoBehaviour:
@@ -8411,6 +9120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224958}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225171
 MonoBehaviour:
@@ -8426,6 +9136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224958}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225172
 MonoBehaviour:
@@ -8441,6 +9152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224959}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225173
 MonoBehaviour:
@@ -8456,6 +9168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224959}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225174
 MonoBehaviour:
@@ -8471,6 +9184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224960}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225175
 MonoBehaviour:
@@ -8486,6 +9200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224960}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225176
 MonoBehaviour:
@@ -8501,6 +9216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224961}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225177
 MonoBehaviour:
@@ -8516,6 +9232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224961}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225178
 MonoBehaviour:
@@ -8531,6 +9248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224962}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225179
 MonoBehaviour:
@@ -8546,6 +9264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224962}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225180
 MonoBehaviour:
@@ -8561,6 +9280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224963}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225181
 MonoBehaviour:
@@ -8576,6 +9296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224963}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225182
 MonoBehaviour:
@@ -8591,6 +9312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224964}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225183
 MonoBehaviour:
@@ -8606,6 +9328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224964}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225184
 MonoBehaviour:
@@ -8621,6 +9344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224965}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225185
 MonoBehaviour:
@@ -8636,6 +9360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 477224965}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225186
 MonoBehaviour:
@@ -8651,6 +9376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 0}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!114 &477225187
 MonoBehaviour:
@@ -8666,6 +9392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 0}
   audioSource: {fileID: 1795083864}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &480064334
 GameObject:
@@ -8792,6 +9519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &505514183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9513,6 +10241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 1
 --- !u!65 &682820026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9798,6 +10527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &727177318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10605,9 +11335,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875869260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 4247926057124405874}
   - {fileID: 2971211852612707320}
@@ -11656,6 +12386,169 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119809021}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &1135320513
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface426 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a95beac2488146a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3ea95beac2008028a3e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703ca95beac282b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3ea95beac282b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703cd52d27c3f26b44a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3ed52d27c3008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703ca95beac2488146a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3ea95beac2008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703ca95beac2008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3ed52d27c3008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703ca95beac282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3ed52d27c382b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703cd52d27c382b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003fa95beac282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003fd52d27c382b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3fa95beac282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3fd52d27c3f26b44a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003fa95beac2488146a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3fd52d27c382b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003fa95beac282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3fd52d27c3008028a3e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3fd52d27c3f26b44a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003fd52d27c382b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3fd52d27c382b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.477
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1147144361
 GameObject:
   m_ObjectHideFlags: 0
@@ -11877,6 +12770,169 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerBehaviourArray:
   - {fileID: 1693713958}
+--- !u!43 &1175985667
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface466 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 00000000c07646a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3e0000000000000000e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703c0000000082b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3e0000000082b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703c010048c26a6144a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3e010048c200000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703c00000000c07646a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3e0000000000000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703c0000000000000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3e010048c200000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703c0000000082b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3e010048c282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703c010048c282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003f0000000082b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003f010048c282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3f0000000082b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3f010048c26a6144a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003f00000000c07646a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3f010048c282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003f0000000082b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3f010048c200000000e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3f010048c26a6144a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003f010048c282b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3f010048c282b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.476
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1184953642
 GameObject:
   m_ObjectHideFlags: 0
@@ -12410,6 +13466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &1249003943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12962,6 +14019,169 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391156135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &1391443650
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface474 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a95beac2488146a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3ea95beac2008028a3e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703ca95beac282b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3ea95beac282b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703cd52d27c3f26b44a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3ed52d27c3008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703ca95beac2488146a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3ea95beac2008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703ca95beac2008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3ed52d27c3008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703ca95beac282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3ed52d27c382b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703cd52d27c382b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003fa95beac282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003fd52d27c382b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3fa95beac282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3fd52d27c3f26b44a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003fa95beac2488146a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3fd52d27c382b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003fa95beac282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3fd52d27c3008028a3e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3fd52d27c3f26b44a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003fd52d27c382b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3fd52d27c382b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.477
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1409383734
 GameObject:
   m_ObjectHideFlags: 0
@@ -13494,6 +14714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!1 &1593091031
 GameObject:
   m_ObjectHideFlags: 0
@@ -13764,6 +14985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 1
 --- !u!65 &1669542316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13917,6 +15139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnter: 0
+  isOutLine: 0
 --- !u!65 &1693713959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14852,6 +16075,169 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!43 &1961369661
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface412 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 00000000c07646a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3e0000000000000000e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703c0000000082b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3e0000000082b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703c010048c26a6144a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3e010048c200000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703c00000000c07646a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3e0000000000000000e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703c0000000000000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3e010048c200000000e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703c0000000082b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3e010048c282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703c010048c282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003f0000000082b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003f010048c282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3f0000000082b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3f010048c26a6144a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003f00000000c07646a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3f010048c282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003f0000000082b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3f010048c200000000e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3f010048c26a6144a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003f010048c282b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3f010048c282b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -25.000002, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000002, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.476
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1963387160
 GameObject:
   m_ObjectHideFlags: 0
@@ -15466,6 +16852,169 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2603c346f7bcc499db7d57c3bfbf7841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!43 &2099255757
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: polySurface489 Instance
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+      m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a95beac2488146a9edff47c20000803f0000000000000000000000000000803f00000000000080bfe8f3673e560aff3ea95beac2008028a3e4b19b380000803f0000000000000000000000000000803f00000000000080bfe8f3673ee0d9703ca95beac282b4afc1edff47c20000803f0000000000000000000000000000803f00000000000080bf0117683c560aff3ea95beac282b4afc1e4b19b380000803f0000000000000000000000000000803f00000000000080bf0117683ce0d9703cd52d27c3f26b44a9edff47c2000000000000803f00000000000080bf0000000000000000000080bfdfa6373f5b0aff3ed52d27c3008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bfdfa6373f81da703ca95beac2488146a9edff47c2000000000000803f00000000000080bf0000000000000000000080bf6c946f3e5b0aff3ea95beac2008028a3e4b19b38000000000000803f00000000000080bf0000000000000000000080bf6c946f3e81da703ca95beac2008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3f560aff3ed52d27c3008028a3e4b19b3800000000000000000000803f000000000000803f00000000000080bf8ed16f3fe0d9703ca95beac282b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393f560aff3ed52d27c382b4afc1e4b19b3800000000000000000000803f000000000000803f00000000000080bff074393fe0d9703cd52d27c382b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bfc50f733fd67a003fa95beac282b4afc1edff47c200000000000080bf00000000000080bf0000000000000000000080bf039cee3ed67a003fd52d27c382b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bfc50f733f9a3c7c3fa95beac282b4afc1e4b19b3800000000000080bf00000000000080bf0000000000000000000080bf039cee3e9a3c7c3fd52d27c3f26b44a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3ed47a003fa95beac2488146a9edff47c20000000000000000000080bf00000000000080bf00000000000080bf42df7d3e963c7c3fd52d27c382b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3ed47a003fa95beac282b4afc1edff47c20000000000000000000080bf00000000000080bf00000000000080bfdea8eb3e963c7c3fd52d27c3008028a3e4b19b38000080bf0000000000000000000000000000803f00000000000080bfe7f8773e963c7c3fd52d27c3f26b44a9edff47c2000080bf0000000000000000000000000000803f00000000000080bfe7f8773ed47a003fd52d27c382b4afc1e4b19b38000080bf0000000000000000000000000000803f00000000000080bf7033f43c963c7c3fd52d27c382b4afc1edff47c2000080bf0000000000000000000000000000803f00000000000080bf7033f43cd47a003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -142.17903, y: -10.981569, z: -24.999928}
+    m_Extent: {x: 25.000004, y: 10.981569, z: 25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 10697.477
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: -1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &2101311928
 GameObject:
   m_ObjectHideFlags: 0
@@ -15928,7 +17477,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956022237494156846}
-  m_Mesh: {fileID: 5738895887531403227, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 353739577}
 --- !u!1 &28977547411083693
 GameObject:
   m_ObjectHideFlags: 0
@@ -16121,6 +17670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3763720484901403088}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &49313880558625188
 Transform:
@@ -17641,6 +19191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5303029099601757068}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &276544287145924146
 GameObject:
@@ -18008,6 +19559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6797792191648627188}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &341354054896883579
 BoxCollider:
@@ -18221,6 +19773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7012415719947295110}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &361434490470655787
 GameObject:
@@ -19213,6 +20766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7478079514273435426}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &510334308736749136
 Transform:
@@ -19275,6 +20829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8596705613217723176}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &514259728687125011
 MeshFilter:
@@ -19371,6 +20926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8458409296604144005}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &523606929799618703
 MeshRenderer:
@@ -19989,6 +21545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6402384837621785676}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &621643696387789107
 MeshRenderer:
@@ -20377,6 +21934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8374179473613696345}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &670435623743730566
 GameObject:
@@ -20425,6 +21983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4657656569660773749}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &672137099743331872
 MeshFilter:
@@ -21619,6 +23178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 905435526711327178}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &841303846813338696
 MeshFilter:
@@ -21746,6 +23306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5172814603769794475}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &853542007107498464
 MeshFilter:
@@ -22024,6 +23585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 341354054896883578}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &883904073623410030
 MeshRenderer:
@@ -22172,6 +23734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1065833878415001058}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &889934277157836308
 MeshRenderer:
@@ -22348,6 +23911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 938179185694298880}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &905558310944003464
 Transform:
@@ -22540,6 +24104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7943897818855024525}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &938319190919400100
 MeshFilter:
@@ -22701,6 +24266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7884416791400523860}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &960899482259114460
 Transform:
@@ -23438,6 +25004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2047371761685839464}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &1067223713492024644
 Transform:
@@ -24166,6 +25733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 837302066919260813}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &1228050002974588253
 GameObject:
@@ -24214,6 +25782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7850630410272165987}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &1229844468394239410
 MeshFilter:
@@ -25350,6 +26919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4695584471764990468}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &1401735898948060324
 MeshRenderer:
@@ -26469,6 +28039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3819159577870897550}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &1652284471330445736
 Transform:
@@ -27051,6 +28622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1228050002974588255}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &1751401539139103653
 MeshFilter:
@@ -31777,6 +33349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5327394890209264851}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &1837858930786648448
 BoxCollider:
@@ -35513,6 +37086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1749045631784416161}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &2023231919272599708
 MeshFilter:
@@ -35695,6 +37269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 513916314198169535}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2053539642634013940
 MeshRenderer:
@@ -36567,6 +38142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4748112365903506527}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &2179312094047696048
 GameObject:
@@ -37041,6 +38617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 668087563559570084}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &2256703276463528933
 GameObject:
@@ -37627,6 +39204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8138891114515416716}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2354580633309261470
 MeshRenderer:
@@ -38358,6 +39936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8769700787112683324}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &2456829967052441439
 GameObject:
@@ -39765,6 +41344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8469969512439072436}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2641404974980630247
 MeshRenderer:
@@ -39999,6 +41579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3991291324243330521}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &2680120880907680049
 MeshFilter:
@@ -40007,7 +41588,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4283516818178818025}
-  m_Mesh: {fileID: -5943450190534595064, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 2099255757}
 --- !u!4 &2681222084193271803
 Transform:
   m_ObjectHideFlags: 0
@@ -40110,6 +41691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6744535316793672956}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2691204867785916000
 MeshRenderer:
@@ -41087,6 +42669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4202257433822879169}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &2796052696024998171
 MeshFilter:
@@ -41697,6 +43280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8918544478531376916}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &2888874544050388116
 Transform:
@@ -42049,6 +43633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7769035356778341951}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2967082609854038841
 MeshRenderer:
@@ -42344,6 +43929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6544750859142199160}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &2994781146974340696
 MeshRenderer:
@@ -43156,6 +44742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8631252470353219876}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &3062796463409195079
 MeshRenderer:
@@ -43761,6 +45348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 620743932973794037}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &3149666613317126981
 MeshRenderer:
@@ -45640,6 +47228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1650405288342505994}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &3429120052077910981
 GameObject:
@@ -46268,6 +47857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7933229000377513735}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &3546473936461660853
 MeshRenderer:
@@ -46548,6 +48138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2888639477544599394}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &3579116763320427456
 BoxCollider:
@@ -46609,6 +48200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 670435623743730568}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &3580395346201848168
 Transform:
@@ -47305,6 +48897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5221570081483251703}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &3717601607196681054
 GameObject:
@@ -47605,6 +49198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3715903937246070412}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &3767472825332070076
 MeshFilter:
@@ -47948,6 +49542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6647132491240667480}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &3822890139390316037
 Transform:
@@ -48646,6 +50241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2639684161782968135}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &3923213739712721950
 MeshFilter:
@@ -48788,6 +50384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4385429679534023143}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &3946792439379526202
 Transform:
@@ -49063,6 +50660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4749387628013510845}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &3974301297875047376
 MeshRenderer:
@@ -49274,6 +50872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3149327927664412202}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &3991291324243330519
 GameObject:
@@ -49322,6 +50921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8819977884116184789}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &3991575350900953275
 MeshRenderer:
@@ -49689,6 +51289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2021241392351198872}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4076355781504327014
 GameObject:
@@ -50473,6 +52074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5481736679591732269}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &4206328158781782506
 Transform:
@@ -50582,6 +52184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2690692938093245224}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &4228134352701562170
 MeshFilter:
@@ -51639,6 +53242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4405415741388851390}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &4389023634773506333
 MeshRenderer:
@@ -51817,6 +53421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 9047805223649539879}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &4407666376213645027
 Transform:
@@ -51879,6 +53484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6649658243179117696}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &4412583672338240788
 MeshFilter:
@@ -52819,6 +54425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7880405790241893507}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4570380234929960958
 GameObject:
@@ -53312,6 +54919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2177686512901004674}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &4664433174009150557
 MeshRenderer:
@@ -53458,7 +55066,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564965852822679353}
-  m_Mesh: {fileID: -4072687042173357133, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 1175985667}
 --- !u!4 &4675772120169140985
 Transform:
   m_ObjectHideFlags: 0
@@ -53575,6 +55183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3579124356054668020}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &4690565648604165450
 MeshFilter:
@@ -53724,6 +55333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4745952130105844218}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4706731672360493812
 GameObject:
@@ -53772,6 +55382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6336936631073907581}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &4709143528231081692
 Transform:
@@ -54074,6 +55685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4686558839241190420}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4748112365903506525
 GameObject:
@@ -54122,6 +55734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 523544232582517261}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4749387628013510843
 GameObject:
@@ -54170,6 +55783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 0}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &4752528977932652129
 Transform:
@@ -54415,6 +56029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7649926527975474639}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &4799503222377228596
 MeshRenderer:
@@ -55400,6 +57015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8256253568509974834}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &4936509876088832437
 GameObject:
@@ -55468,6 +57084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1837858930786648447}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &4943399664954381512
 BoxCollider:
@@ -55632,6 +57249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 275416942346151828}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &4974057349387775640
 MeshFilter:
@@ -56997,6 +58615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1749045631784416161}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &5176521657842212793
 MeshRenderer:
@@ -57459,6 +59078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4686558839241190420}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &5226218498450595013
 MeshRenderer:
@@ -58009,6 +59629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 45951975493290230}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &5305241202152438114
 MeshRenderer:
@@ -58208,6 +59829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3545229358728103053}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &5327394890209264850
 GameObject:
@@ -58243,6 +59865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7306775828668812260}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &5327394890209264852
 BoxCollider:
@@ -59263,6 +60886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4970950448393798972}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &5471202099298466307
 GameObject:
@@ -59380,6 +61004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 359393110000804268}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &5486688542432229998
 MeshRenderer:
@@ -59547,6 +61172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2796024334876641448}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &5512200955538068094
 Transform:
@@ -60707,6 +62333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8776446001584869319}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &5678471673889614154
 MeshFilter:
@@ -61124,7 +62751,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649329395060252762}
-  m_Mesh: {fileID: -9074611409885000647, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 1391443650}
 --- !u!1 &5768819321875615202
 GameObject:
   m_ObjectHideFlags: 0
@@ -64072,6 +65699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7844115461770189086}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &6235303828736255851
 GameObject:
@@ -64183,6 +65811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7547290248175724795}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &6242823742938086511
 Transform:
@@ -65002,6 +66631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6240926141261353124}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &6341331092337291553
 Transform:
@@ -65307,6 +66937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4209180951553022997}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &6404944682942430235
 GameObject:
@@ -66019,6 +67650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 505234622979472237}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &6545189795920773739
 GameObject:
@@ -66067,6 +67699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2350018913987756840}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &6546630386162618236
 Transform:
@@ -66451,7 +68084,7 @@ Transform:
   m_GameObject: {fileID: 1712004432159309072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0044926833, y: -0.109815694, z: 25.858767}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 875869261}
   - {fileID: 286531307}
@@ -66910,6 +68543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7798596293552161805}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!222 &6647340716924818948
 CanvasRenderer:
@@ -67464,6 +69098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 888651230930300688}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!224 &6649666080553830090
 RectTransform:
@@ -69222,6 +70857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4410722262208783809}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &6680087707769424045
 GameObject:
@@ -69841,6 +71477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4786219583682881023}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!212 &6747227585875386202
 SpriteRenderer:
@@ -70072,6 +71709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2255413078691895894}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &6751573847921841200
 MeshFilter:
@@ -70349,6 +71987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4943399664954381511}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &6797792191648627189
 BoxCollider:
@@ -75328,7 +76967,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7800807602114875912}
-  m_Mesh: {fileID: -8086694775990755093, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 1961369661}
 --- !u!33 &6932721564608347689
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -75701,6 +77340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2962425065382348708}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7013183573449255003
 GameObject:
@@ -77130,6 +78770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4970950448393798972}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &7248433231515844220
 MeshFilter:
@@ -77485,6 +79126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7912542079489904783}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7309593774018938798
 GameObject:
@@ -77588,6 +79230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4566521553510222900}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &7318964339653665261
 MeshFilter:
@@ -78472,6 +80115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3990801524779374442}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &7479049980749975888
 MeshFilter:
@@ -78735,6 +80379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4934407284019220102}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7548585397572349180
 GameObject:
@@ -79045,6 +80690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3579116763320427455}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &7657208793394549694
 MeshRenderer:
@@ -79382,7 +81028,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4810979284470985979}
-  m_Mesh: {fileID: 4295305201466860553, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 258717312}
 --- !u!33 &7722814802676397842
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -79621,6 +81267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2672450423155025347}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &7783267408636774340
 MeshRenderer:
@@ -79839,6 +81486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4410722262208783809}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &7799906530184584857
 Transform:
@@ -80339,6 +81987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3058788063272804800}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7850630410272165985
 GameObject:
@@ -80387,6 +82036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4202257433822879169}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &7863488744919160545
 MeshRenderer:
@@ -80609,6 +82259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5326454594913660140}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7882402961317786719
 GameObject:
@@ -80657,6 +82308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6671466720866235079}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &7882452550451500092
 Transform:
@@ -80719,6 +82371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8173550020635763891}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &7885481641966152460
 MeshFilter:
@@ -81051,6 +82704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3973546333699374601}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &7915460751768973985
 GameObject:
@@ -81295,6 +82949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7242233530078590506}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &7937407934070280427
 MeshRenderer:
@@ -81382,6 +83037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2454391852170238849}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &7946124057220291087
 MeshFilter:
@@ -81908,7 +83564,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2941072857237067698}
-  m_Mesh: {fileID: -329315503265546255, guid: b7dbea0aae2a54843989d157f856c301, type: 3}
+  m_Mesh: {fileID: 1135320513}
 --- !u!1 &8079842520745008587
 GameObject:
   m_ObjectHideFlags: 0
@@ -82314,6 +83970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4749387628013510845}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &8156447195958499548
 GameObject:
@@ -82450,6 +84107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8191253104570583379}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &8177337175541469850
 Transform:
@@ -82606,6 +84264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4061452200970204463}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &8193933962475590861
 Transform:
@@ -82749,6 +84408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3921959911752119007}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!65 &8206673180058328314
 BoxCollider:
@@ -83044,6 +84704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6232831170639416374}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &8256699069017113897
 MeshRenderer:
@@ -83782,6 +85443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1227527767036282805}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &8352585844026909083
 Transform:
@@ -83907,6 +85569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7882402961317786721}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &8377679736672977113
 MeshFilter:
@@ -84315,6 +85978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 8769700787112683324}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &8461323658738019942
 MeshRenderer:
@@ -84435,6 +86099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 4706731672360493814}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &8477343789843819158
 GameObject:
@@ -85172,6 +86837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3943723477856391922}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!4 &8598791673913305392
 Transform:
@@ -85508,6 +87174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 7317721614253447509}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &8636166309213210275
 GameObject:
@@ -86336,6 +88003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 3428293567247109263}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &8770808565310415636
 MeshFilter:
@@ -86470,6 +88138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 5326454594913660140}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &8783818722161794406
 GameObject:
@@ -86819,6 +88488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 1396671796874073443}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!23 &8822082457825255619
 MeshRenderer:
@@ -87477,6 +89147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 6545189795920773741}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!1 &8924566492522432677
 GameObject:
@@ -88334,6 +90005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backCubeObserver: {fileID: 2994565014796104100}
   audioSource: {fileID: 1887277393}
+  jointCubeObserverArray: []
   isNextAllow: 0
 --- !u!33 &9048725928008990508
 MeshFilter:
