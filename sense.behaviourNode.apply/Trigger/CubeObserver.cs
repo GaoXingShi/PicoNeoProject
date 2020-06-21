@@ -13,6 +13,9 @@ namespace Sense.BehaviourTree
 
         public CubeObserver[] jointCubeObserverArray;
 
+        [Header("当玩家踩到该方块时就掉落 ?")]
+        public bool isPlayerTriggerDown;
+
         // false 还在原地 true代表掉落
         [HideInInspector]
         public bool isNextAllow;
@@ -77,6 +80,15 @@ namespace Sense.BehaviourTree
                         }
                         EnableTrigger();
                     });
+                }
+            }
+
+            if (isPlayerTriggerDown)
+            {
+                if (transform.childCount > 0)
+                {
+                    EnableTrigger();
+                    timer = dropTime;
                 }
             }
         }

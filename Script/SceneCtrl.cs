@@ -16,10 +16,6 @@ public class SceneCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(0, Pvr_KeyCode.Y) && Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(1, Pvr_KeyCode.B))
-        {
-            SceneManager.LoadScene(sceneName);
-        }
 
         if (Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(0, Pvr_KeyCode.APP) ||
             Pvr_UnitySDKAPI.Controller.UPvr_GetKeyClick(1, Pvr_KeyCode.APP))
