@@ -70,7 +70,7 @@ namespace Sense.BehaviourTree.VRTKExtend
         {
             spriteCube.SetActive(true);
             yield return StartCoroutine(teleport.ForceMove(picoTeleport.transform, value == 1 ? turn1Pos : turn2Pos));
-            picoTeleport.GetComponent<Rigidbody>().isKinematic = true;
+            //picoTeleport.GetComponent<Rigidbody>().isKinematic = true;
             Time.timeScale = 0;
             backageAudioSource.clip = backageClip;
             backageAudioSource.Play(0);

@@ -7,7 +7,6 @@ using UnityEngine;
 namespace PicoMainNameSpace
 {
     [RequireComponent(typeof(Rigidbody))]
-    [RequireComponent(typeof(FixedJoint))]
     public class PicoTeleportRigibody : MonoBehaviour
     {
         public Transform fixedPoint;
@@ -18,6 +17,7 @@ namespace PicoMainNameSpace
 
         private void Awake()
         {
+
             if (singleton == null)
             {
                 singleton = this;
@@ -36,7 +36,8 @@ namespace PicoMainNameSpace
         private void Start()
         {
             TryGetComponent(out mRigidbody);
-            TryGetComponent(out mFixedJoint);
+            //TryGetComponent(out mFixedJoint);
+
         }
 
         public void SetTargetLandingLocation(Transform _parentObj,Vector3 _pos)
@@ -53,6 +54,11 @@ namespace PicoMainNameSpace
         public void CancelLandingLocation()
         {
             mRigidbody.isKinematic = true;
+        }
+
+        public Rigidbody GetMineRigidbody()
+        {
+            return mRigidbody;
         }
     }
 }
