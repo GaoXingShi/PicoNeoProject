@@ -11,8 +11,12 @@ public class MusicCubeScript : MonoBehaviour
     {
         if (_collider.tag.Equals("Player"))
         {
-            source.clip = clip;
-            source.Play(0);
+            if (source.clip != clip)
+            {
+                source.clip = clip;
+                source.Play(0);
+            }
+           
         }
     }
 }
